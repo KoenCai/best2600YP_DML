@@ -1,2 +1,0 @@
-
-cmd_platform/hal/best1501/built-in.a := ( /usr/bin/printf 'create platform/hal/best1501/built-in.a\n addmod platform/hal/best1501/hal_capsensor_best1501.o,platform/hal/best1501/hal_iomux_best1501.o,platform/hal/best1501/hal_cmu_best1501.o,platform/hal/best1501/hal_psc_best1501.o,platform/hal/best1501/hal_codec_best1501.o,platform/hal/best1501/hal_sec_best1501.o,platform/hal/best1501/hal_analogif_best1501.o,platform/hal/best1501/hal_sensor_eng_best1501.o,platform/hal/best1501/hal_senscmu_best1501.o,platform/hal/best1501/hal_vad_best1501.o\n save\nend' | arm-none-eabi-ar -M )

@@ -1,2 +1,0 @@
-
-cmd_platform/drivers/bt/best1501/built-in.a := ( /usr/bin/printf 'create platform/drivers/bt/best1501/built-in.a\n addmod platform/drivers/bt/best1501/bt_drv_config.o,platform/drivers/bt/best1501/bt_drv_patch.o,platform/drivers/bt/best1501/bt_drv_func_patch.o,platform/drivers/bt/best1501/iqcorrect.o,platform/drivers/bt/best1501/bt_drv_rfconfig.o,platform/drivers/bt/best1501/bt_drv_uart_bridge_intsys.o,platform/drivers/bt/best1501/bt_drv_reg_op.o,platform/drivers/bt/best1501/bt_drv.o,platform/drivers/bt/best1501/bt_drv_calibration.o\n save\nend' | arm-none-eabi-ar -M )

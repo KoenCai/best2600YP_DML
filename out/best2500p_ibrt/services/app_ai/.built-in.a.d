@@ -1,2 +1,0 @@
-
-cmd_services/app_ai/built-in.a := ( /usr/bin/printf 'create services/app_ai/built-in.a\n addmod services/app_ai/src/app_ai_if_ble.o,services/app_ai/src/app_ai_if_gsound.o,services/app_ai/src/app_ai_tws.o,services/app_ai/src/app_ai_algorithm.o,services/app_ai/src/app_ai_if_thirdparty.o,services/app_ai/src/app_ai_if_custom_ui.o,services/app_ai/src/app_ai_manager_api.o,services/app_ai/src/app_ai_if.o\n save\nend' | arm-none-eabi-ar -M )

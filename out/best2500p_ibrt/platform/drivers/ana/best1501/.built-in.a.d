@@ -1,2 +1,0 @@
-
-cmd_platform/drivers/ana/best1501/built-in.a := ( /usr/bin/printf 'create platform/drivers/ana/best1501/built-in.a\n addmod platform/drivers/ana/best1501/analog_best1501.o,platform/drivers/ana/best1501/usbphy_best1501.o,platform/drivers/ana/best1501/charger_best1501.o,platform/drivers/ana/best1501/pmu_itn_best1501.o,platform/drivers/ana/best1501/pmu_best1501.o\n save\nend' | arm-none-eabi-ar -M )

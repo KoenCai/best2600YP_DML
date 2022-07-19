@@ -1,2 +1,0 @@
-
-cmd_rtos/rtx5/built-in.a := ( /usr/bin/printf 'create rtos/rtx5/built-in.a\n addmod rtos/rtx5/rtx_thread_dump.o,rtos/rtx5/rtx_evr.o,rtos/rtx5/rtx_mutex.o,rtos/rtx5/cmsis_os1.o,rtos/rtx5/rtx_memory.o,rtos/rtx5/rtx_delay.o,rtos/rtx5/rtx_timer.o,rtos/rtx5/rtx_msgqueue.o,rtos/rtx5/rtx_kernel.o,rtos/rtx5/rtx_evflags.o,rtos/rtx5/rtx_thread.o,rtos/rtx5/rtx_system.o,rtos/rtx5/rtx_lib.o,rtos/rtx5/os_systick.o,rtos/rtx5/rtx_semaphore.o,rtos/rtx5/rtx_mempool.o\n addlib rtos/rtx5/GCC/built-in.a\n addlib rtos/rtx5/rtx_config/built-in.a\nsave\nend' | arm-none-eabi-ar -M )
