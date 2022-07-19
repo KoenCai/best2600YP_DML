@@ -1,0 +1,2 @@
+
+cmd_platform/cmsis/built-in.a := ( /usr/bin/printf 'create platform/cmsis/built-in.a\n addmod platform/cmsis/cmsis_nvic.o,platform/cmsis/patch.o,platform/cmsis/patch_armv7m.o,platform/cmsis/retarget_armclang_asm.o,platform/cmsis/retarget_armclang.o,platform/cmsis/system_ARMCM.o,platform/cmsis/system_cp.o,platform/cmsis/system_sens.o,platform/cmsis/system_utils.o,platform/cmsis/stack_protector.o,platform/cmsis/dwt.o,platform/cmsis/retarget_gcc.o,platform/cmsis/mpu_armv8m.o\n addlib platform/cmsis/DSP_Lib/built-in.a\nsave\nend' | arm-none-eabi-ar -M )

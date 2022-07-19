@@ -1,0 +1,3 @@
+---- heap_init Matches (2 in 1 files) ----
+Cwm_api.c (d:\bes2600yp\best2600yp_ibrt_dml_example_20220718\services\spatial_audio):void heap_init(void)
+Cwm_api.c (d:\bes2600yp\best2600yp_ibrt_dml_example_20220718\services\spatial_audio):	heap_init();
